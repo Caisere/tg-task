@@ -3,6 +3,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primaryPurple: #571244;
+  --secondaryPurple: #2c0922;
+  --tertiaryPurple: #8f6182;
+  --primaryCoralRed: #ef4353;
+  --lightCoralRed: rgba(239, 67, 83, 0.2);
+  --primaryTextColor: #151515;
+  --primaryTextBlue: #1671d9;
+  --primaryTextWhite: #ffffff;
+  --border: #ddd0da;
 }
 
 @theme inline {
@@ -10,6 +19,17 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primaryPurple);
+  --color-secondaryPurple: var(--secondaryPurple);
+  --color-tertiaryPurple: var(--tertiaryPurple);
+  --color-primaryRed: var(--primaryCoralRed);
+  --color-lightCoralRed: var(--lightCoralRed);
+  --color-primaryTextColor: var(--primaryTextColor);
+  --color-primaryTextBlue: var(--primaryTextBlue);
+  --color-primaryTextWhite: var(--primaryTextWhite);
+  --color-border: var(--border);
+  --font-nunito: var(--font-nunito-google);
+  --font-nunito-sans: var(--font-nunito-sans-google);
 }
 
 @media (prefers-color-scheme: dark) {
